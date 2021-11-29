@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Front End/checkpoint/css/styleform.css">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>Diga pra gente seus interesse em visistar nossa cidade</h1>
+    <a href="../checkpoint/index.html"></a>
+  </header>
+
+  <form class="form-cadastro" action="/cadastrar" name="cadastro-usuario">
+    <fieldset form="cadastro-usuario"> 
+
+      <legend class="title"> Cadastre-se</legend>
+
+      <div class="form1">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Insira o nome">
+      
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Insira o email"> 
+
+        <label for="numero">Numero Tel:</label>
+        <input type="tel" name="tel" id="tel" placeholder="Insira Numero:"> 
+
+        <label for="idade">Data Nasc:</label>
+        <input type="date" name="idade" id="idade" placeholder="Insira a Data Nasc"> 
+      </div>
+
+      <div class="form2">
+        <label for="idade">Maior de idade:</label>
+
+        <label for="Sim">Sim:</label> <input type="radio" name="opcoesidade" for="Sim" id="v"/>
+        
+        <label for="Não">Não:</label> <input type="radio" name="opcoesidade"  for="Não" id="f"/>
+     
+
+      </div>
+      <div class="interesses-form">
+
+      <label for="interesses">Quais os interesses:</label>
+
+      <label for="Turismo">Turismo:</label>
+      <input type="checkbox"  id="Turismo"> 
+
+      <label for="Residir">Residir:</label>
+      <input type="checkbox"  id="Residir"> 
+
+      <label for="Estudante">Estudante:</label>
+      <input type="checkbox"  id="Estudante">
+
+      <label for="Temporada">Temporada:</label>
+      <input type="checkbox"  id="Temporada">
+    </div>
+      
+      <div class="minibio"> 
+        <label for="minibio">Outros interesses: </label>
+        <textarea name="outros" id="outros" cols="50" rows="5" placeholder="Insira Outros interesses"></textarea>
+      </div>
+
+      <div class="buttons-div">
+        
+        <button type="submit">Cadastrar</button>
+        <button type="reset">Limpar</button>
+      </div>
+    </fieldset>
+
+
+  </form>
+</body>
+</html>
