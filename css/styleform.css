@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Red+Hat+Display:ital,wght@0,300;0,500;0,700;1,900&family=Rubik:ital@1&family=Ubuntu:wght@300;700&display=swap');
+
+header a {
+    background-image: url();
+}
+
+body {
+    background-image: url(../img/fundo32.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body h1 {
+    text-align: center;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+fieldset {
+    border: rgb(150, 149, 149) solid 5px;
+    background-color: rgba(255, 235, 205, 0.199);
+    
+}
+
+label {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.form1 {
+    display: flex;
+    align-items: center;
+}
+
+.form1 label {
+   margin-left: 10px;
+}
+
+input {
+    margin-left: 5px;
+     
+}
+
+.form1 input:hover{
+    border: 2px solid rgb(0, 0, 0);
+    width:  300px;
+    transition: 2s;
+}
+
+.form2 {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.form2 label {
+    margin-left: 10px;
+}
+
+.interesses-form {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.interesses-form label {
+    margin-left: 10px;
+}
+
+
+.interesses-form input:hover{
+    margin-right: 10px;
+    transition: 0.1s;
+    
+}
+
+.minibio {
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: top;
+}
+
+.minibio textarea {
+    margin-left: 10px;
+    border-radius: 9px rgb(32, 32, 32) solid;
+}
+.title {
+    font-family: 'Rubik', sans-serif;
+}
+
+.buttons-div {
+    margin-top: 10px;
+    
+}
+
+.buttons-div  button{
+    font-size: 15px;
+    font-family: fantasy;
+    margin-left: 10px;
+}
+
+.buttons-div button:hover {
+    
+    border-radius: 2px;
+    background-color: rgb(150, 149, 149);
+    box-shadow: 2px 2px 2px 2px rgba(182, 181, 181, 0.973);
+
+}
+
